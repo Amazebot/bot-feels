@@ -1,0 +1,34 @@
+{
+  "name": "feels",
+  "version": "0.0.0",
+  "description": "A very sentimental chatbot. Built with bBot.",
+  "main": "index.js",
+  "repository": "git@github.com:Amazebot/bot-feels.git",
+  "author": "Tim Kinnane <tim.kinnane@amazebot.chat>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "bbot",
+    "chatbot",
+    "chat",
+    "ai",
+    "nlp",
+    "nlu",
+    "watson",
+    "IBM",
+    "sentiment",
+    "tone",
+    "messaging",
+    "rocket.chat",
+    "conversation",
+    "CUI",
+    "typescript"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bbot": "^0.0.3",
+    "bbot-understand-watson-tone": "^0.0.2"
+  }
+}
