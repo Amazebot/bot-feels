@@ -28,7 +28,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "bbot": "^0.0.3",
-    "bbot-understand-watson-tone": "^0.0.2"
+    "bbot": "^0.1.0",
+    "bbot-watson-tone-nlu": "^0.0.2"
   }
 }

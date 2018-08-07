@@ -269,16 +269,16 @@ aws4@^1.6.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.7.0.tgz#d4d0e9b9dbfca77bf08eeb0a8a471550fe39e289"
 
-bbot-understand-watson-tone@^0.0.2:
+bbot-watson-tone-nlu@^0.0.2:
   version "0.0.2"
-  resolved "https://registry.yarnpkg.com/bbot-understand-watson-tone/-/bbot-understand-watson-tone-0.0.2.tgz#fbaf54cc199066726607cf49da5e64b057cbbedd"
+  resolved "https://registry.yarnpkg.com/bbot-watson-tone-nlu/-/bbot-watson-tone-nlu-0.0.2.tgz#798622ed2123327723741954fbaad452d023895a"
   dependencies:
     "@types/node" "^10.5.2"
     watson-developer-cloud "^3.5.3"
 
-bbot@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/bbot/-/bbot-0.0.3.tgz#cefa7248c7ca1a1e4261c0ce0325a59c225dac68"
+bbot@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/bbot/-/bbot-0.1.1.tgz#bd047e44b6d6431d614196ed82f8513b8362e7e1"
   dependencies:
     "@rocket.chat/sdk" "^0.2.3"
     "@types/inquirer" "^0.0.42"
