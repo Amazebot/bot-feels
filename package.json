@@ -1,5 +1,5 @@
 {
-  "name": "feels",
+  "name": "bbot-feels",
   "version": "0.0.0",
   "description": "A very sentimental chatbot. Built with bBot.",
   "main": "index.js",
@@ -24,11 +24,25 @@
     "CUI",
     "typescript"
   ],
-  "scripts": {
-    "start": "node index.js"
+  "standard": {
+    "env": [
+      "mocha"
+    ]
   },
   "dependencies": {
-    "bbot": "^0.1.0",
-    "bbot-watson-tone-nlu": "^0.0.2"
+    "bad-words": "^1.6.3",
+    "bbot": "^0.1.2",
+    "bbot-watson-tone-nlu": "^0.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "debug": "node --inspect --inspect-brk index.js",
+    "local": "node index.js",
+    "start": "node index.js -m rocketchat",
+    "test": "mocha ./*.spec.js"
   }
 }
