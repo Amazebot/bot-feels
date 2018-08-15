@@ -21,8 +21,7 @@
     "messaging",
     "rocket.chat",
     "conversation",
-    "CUI",
-    "typescript"
+    "CUI"
   ],
   "standard": {
     "env": [
@@ -31,7 +30,7 @@
   },
   "dependencies": {
     "bad-words": "^1.6.3",
-    "bbot": "^0.1.2",
+    "bbot": "^0.2.0",
     "bbot-watson-tone-nlu": "^0.0.1"
   },
   "devDependencies": {

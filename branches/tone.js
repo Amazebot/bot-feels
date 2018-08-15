@@ -1,0 +1,17 @@
+// Reflect Tone 🤔
+module.exports = async (b) => {
+  const envelope = b.respondEnvelope()
+  for (let tone of b.match.tone) {
+    switch (tone.id) {
+      case 'anger': envelope.write(':rage:'); break
+      case 'disgust': envelope.write(':confounded:'); break
+      case 'fear': envelope.write(':fearful:'); break
+      case 'joy': envelope.write(':heart-eyes:'); break
+      case 'sadness': envelope.write(':cry:'); break
+      case 'analytical': envelope.write(':monocle:'); break
+      case 'confident': envelope.write(':sunglasses:'); break
+      case 'tentative': envelope.write(':thinking:'); break
+    }
+  }
+  if (envelope.strings) await b.respondVia('react')
+}
