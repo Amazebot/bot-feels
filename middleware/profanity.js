@@ -8,7 +8,7 @@ module.exports = async (b, next, done) => {
     const timeToWarn = 60 * 60 * 1000 // 1hr in milliseconds
     const now = new Date()
     if (!user.warned || ((now - user.warned) > timeToWarn)) {
-      b.bot.logger.warn(`${user.name} bad language warning issued to ${user.name}`)
+      b.bot.logger.warn(`[feels] bad language warning issued to ${user.name}`)
       user.warned = now
       await b.respond(`Please mind your language and take some time to review our [code of conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct).`)
     } else {

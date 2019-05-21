@@ -36,11 +36,13 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
     "standard": "^11.0.1"
   },
   "scripts": {
     "debug": "node --inspect --inspect-brk index.js",
     "local": "node index.js",
+    "watch": "nodemon",
     "start": "node index.js -m rocketchat",
     "test": "mocha ./*.spec.js"
   }
