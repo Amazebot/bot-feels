@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "bad-words": "^1.6.3",
-    "bbot": "^0.2.0",
+    "bbot": "^1.3.2",
     "bbot-watson-tone-nlu": "^0.0.1"
   },
   "devDependencies": {

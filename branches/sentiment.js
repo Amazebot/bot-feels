@@ -8,7 +8,7 @@ module.exports = async (b) => {
     else if (sentiment.score > 0) envelope.write(':blush:')
     else if (sentiment.score === 0) envelope.write(':neutral-face:')
     else if (sentiment.score <= -0.75) envelope.write(':sob:')
-    else if (sentiment.score <= -0.5) envelope.write(':disappointed:')
+    else if (sentiment.score <= -0.5) envelope.write(':one-tear:')
     else if (sentiment.score <= -0.25) envelope.write(':frowning:')
     else if (sentiment.score < 0) envelope.write(':unamused:')
   }

@@ -6,11 +6,11 @@ module.exports = async (b) => {
       case 'anger': envelope.write(':rage:'); break
       case 'disgust': envelope.write(':confounded:'); break
       case 'fear': envelope.write(':fearful:'); break
+      case 'sadness': envelope.write(':disappointed:'); break
       case 'joy': envelope.write(':heart-eyes:'); break
-      case 'sadness': envelope.write(':cry:'); break
-      case 'analytical': envelope.write(':monocle:'); break
+      case 'analytical': envelope.write(':thinking:'); break
       case 'confident': envelope.write(':sunglasses:'); break
-      case 'tentative': envelope.write(':thinking:'); break
+      case 'tentative': envelope.write(':eye-roll:'); break
     }
   }
   if (envelope.strings) await b.respondVia('react')
